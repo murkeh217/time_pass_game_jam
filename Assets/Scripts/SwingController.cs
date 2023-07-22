@@ -8,7 +8,7 @@ public class SwingController : MonoBehaviour
     public float jumpSpeed = 20.0F;
     public float gravity = 20.0F;
     private Vector3 moveDirection = Vector3.zero;
-    CharacterController controller;
+    PlayerController controller;
     public Camera cam;
     enum State { Swinging, Falling, Walking };
     State state;
@@ -19,12 +19,12 @@ public class SwingController : MonoBehaviour
 
     void Start()
     {
-        controller = GetComponent<CharacterController>();
+        //controller = GetComponent<CharacterController>();
         state = State.Walking;
         pendulum.bobTr.transform.parent = pendulum.tether.tetherTr;
         previousPosition = transform.localPosition;
 
-        distToGround = GetComponent<CapsuleCollider>().bounds.extents.y;
+        //distToGround = GetComponent<CapsuleCollider>().bounds.extents.y;
     }
 
     void Update()
@@ -112,7 +112,7 @@ public class SwingController : MonoBehaviour
     void DoWalkingAction()
     {
         pendulum.bob.velocity = Vector3.zero;
-        if (controller.isGrounded)
+        /*if (controller.isGrounded)
         {
             moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
             moveDirection = Camera.main.transform.TransformDirection(moveDirection);
@@ -126,7 +126,7 @@ public class SwingController : MonoBehaviour
 
         }
         moveDirection.y -= gravity * Time.deltaTime;
-        controller.Move(moveDirection * Time.deltaTime);
+        //controller.Move(moveDirection * Time.deltaTime);*/
     }
 
     void OnControllerColliderHit(ControllerColliderHit hit)

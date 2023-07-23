@@ -6,17 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="d9be70cb-17f4-4c57-b1c0-ea172dc06f2f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.time_pass_game_jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.time_pass_game_jam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animator/CharacterAnimator.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animator/CharacterAnimator.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Walking.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Walking.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Frictionless.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Frictionless.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/MainActiveRagdoll.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/MainActiveRagdoll.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/humanblend.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/humanblend.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CopyLimb.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CopyLimb.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +111,7 @@
       <updated>1689949685894</updated>
       <workItem from="1689949691624" duration="9179000" />
       <workItem from="1690026915591" duration="3000" />
+      <workItem from="1690036558074" duration="3227000" />
     </task>
     <servers />
   </component>

@@ -7,7 +7,7 @@ public class Grab : MonoBehaviour
 {
     private bool hold;
 
-    public KeyCode button;
+    //public KeyCode button;
     
     // Start is called before the first frame update
     void Start()
@@ -18,7 +18,7 @@ public class Grab : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(button))
+        if (Input.GetMouseButton(0))
         {
             hold = true;
         }

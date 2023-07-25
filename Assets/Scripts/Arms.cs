@@ -10,7 +10,8 @@ public class Arms : MonoBehaviour
 
     public Camera cam;
 
-    public KeyCode button;
+    //public KeyCode button;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -21,13 +22,12 @@ public class Arms : MonoBehaviour
     void Update()
     {
         Vector3 playerPos = new Vector3(cam.ScreenToWorldPoint(Input.mousePosition).x,
-            cam.ScreenToWorldPoint(Input.mousePosition).y,0);
+            cam.ScreenToWorldPoint(Input.mousePosition).y,0f);
         Vector3 difference = playerPos - transform.position;
         float rotationZ = Mathf.Atan2(difference.x, -difference.y) * Mathf.Rad2Deg;
 
-        if (Input.GetKey(button))
+        if (Input.GetMouseButton(0))
         {
-            Debug.Log("Clicked");
             rb.MoveRotation(Mathf.LerpAngle(rb.rotation, rotationZ, speed * Time.fixedDeltaTime));
         }
     }

@@ -6,177 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="d9be70cb-17f4-4c57-b1c0-ea172dc06f2f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.time_pass_game_jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.time_pass_game_jam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationController.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationController.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Running.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Running.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Samba Dancing.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Samba Dancing.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Walking.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Walking.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/xbot.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/xbot.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/BodyMat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/BodyMat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/ConstructionLight_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/ConstructionLight_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/DryWallPainted_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/DryWallPainted_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/DryWall_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/DryWall_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/GlassesMat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/GlassesMat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Ground_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Ground_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Hammer_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Hammer_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/HardHat_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/HardHat_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Jigsaw_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Jigsaw_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LightBulb_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LightBulb_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Liquid_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Liquid_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Metal_Blue_Simple_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Metal_Blue_Simple_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Metal_Simple_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Metal_Simple_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/OBS_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/OBS_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/PaintBrush_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/PaintBrush_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/PaintCan_mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/PaintCan_mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/PaintLabel_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/PaintLabel_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Plastic_Black_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Plastic_Black_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Plastic_Gray_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Plastic_Gray_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Plastic_Ridges_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Plastic_Ridges_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Plastic_Rough_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Plastic_Rough_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Plastic_Transparent.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Plastic_Transparent.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Plastic_White_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Plastic_White_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Plastic_Yellow_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Plastic_Yellow_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/RopeMat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/RopeMat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/SingleRagdollSceneLightSettings.lighting" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/SingleRagdollSceneLightSettings.lighting.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Strap_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Strap_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Stud_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Stud_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/CheckersGray_BC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/CheckersGray_BC.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/Concrete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/Concrete.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/checkerboard.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/checkerboard.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/checkerboard2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/checkerboard2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/gridTexture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/gridTexture.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/tile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/tile.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/tilenormalmap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/tilenormalmap.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/whiteGrid.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/whiteGrid.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/checkerboard.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/checkerboard.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/checkerboard2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/checkerboard2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/checkersGray_BC.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/checkersGray_BC.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/concrete.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/concrete.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/floor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/floor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/floor2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/floor2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/floor3.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/floor3.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/green.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/green.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/gridTexture.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/gridTexture.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/ground.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/ground.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/jeep.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/jeep.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/orange.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/orange.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/red.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/red.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/tile.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/tile.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/transparent.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/transparent.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ActiveRagdoll.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ActiveRagdoll.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Capsules.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Capsules.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environment.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environment.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Plane.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Plane.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Sphere.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Sphere.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WALL.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WALL.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/grapplinghook.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/grapplinghook.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/stairs.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/stairs.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arms.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arms.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Balance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Balance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grab.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grab.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerController.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grapple.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grapple/GrapplingHook.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grapple/GrapplingHook.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/ActiveRagdollScripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/ActiveRagdollScripts/AnimationFollowing.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/ActiveRagdollScripts/AnimationFollowing.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/ActiveRagdollScripts/CollisionDetector.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/ActiveRagdollScripts/CollisionDetector.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/ActiveRagdollScripts/HumanoidSetUp.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/ActiveRagdollScripts/HumanoidSetUp.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/ActiveRagdollScripts/MasterController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/ActiveRagdollScripts/MasterController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/ActiveRagdollScripts/SlaveController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/ActiveRagdollScripts/SlaveController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/FPSDisplay.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/FPSDisplay.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/FlyCamera.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/FlyCamera.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/JointFollowAnimRot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/JointFollowAnimRot.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/ReplaceJoints.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/ReplaceJoints.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/ShootObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ragdoll/ShootObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/grapplinghook.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/grapplinghook.blend.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Square.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Walk.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Walk.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WalkBack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WalkBack.anim.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,6 +115,8 @@
       <workItem from="1690036558074" duration="3227000" />
       <workItem from="1690109303952" duration="7778000" />
       <workItem from="1690196143199" duration="8161000" />
+      <workItem from="1690210874517" duration="3269000" />
+      <workItem from="1690277963384" duration="43000" />
     </task>
     <servers />
   </component>

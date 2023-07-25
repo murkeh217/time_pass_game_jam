@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 368893972}
   - component: {fileID: 368893971}
   - component: {fileID: 368893973}
+  - component: {fileID: 368893974}
   m_Layer: 0
   m_Name: LeftHand
   m_TagString: Untagged
@@ -244,6 +245,18 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
+--- !u!114 &368893974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368893969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff5c1d3b536e1127b335b101976ba0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &460142655
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,8 +477,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496547315}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5675585, y: -0.899, z: -0.016191006}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.35, y: -0.899, z: -0.016191006}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1635443394}
@@ -646,7 +659,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 531645386}
   rb: {fileID: 460142658}
-  jumpForce: 300000
+  jumpForce: 200000
   playerSpeed: 50
   positionRadius: 0.3
   jumpHeight: {x: 0, y: 0}
@@ -666,6 +679,7 @@ GameObject:
   - component: {fileID: 653984433}
   - component: {fileID: 653984432}
   - component: {fileID: 653984431}
+  - component: {fileID: 653984434}
   m_Layer: 0
   m_Name: RightHand
   m_TagString: Untagged
@@ -775,6 +789,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &653984434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653984429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff5c1d3b536e1127b335b101976ba0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1069,7 +1095,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 782066219}
   cam: {fileID: 503603562}
-  button: 308
 --- !u!1 &830690074
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,7 +1139,6 @@ GameObject:
   - component: {fileID: 900031292}
   - component: {fileID: 900031294}
   - component: {fileID: 900031293}
-  - component: {fileID: 900031295}
   m_Layer: 0
   m_Name: Square (1)
   m_TagString: Untagged
@@ -1233,7 +1257,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.5}
-  m_ConnectedAnchor: {x: 0, y: -0.49279478}
+  m_ConnectedAnchor: {x: 0, y: -0.4927949}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1287,31 +1311,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!233 &900031295
-HingeJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900031289}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 900031292}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_BreakAction: 3
-  m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0, y: -0.5}
-  m_ConnectedAnchor: {x: 0, y: -0.5}
-  m_UseMotor: 0
-  m_Motor:
-    m_MotorSpeed: 0
-    m_MaximumMotorForce: 10000
-  m_UseLimits: 1
-  m_AngleLimits:
-    m_LowerAngle: -30
-    m_UpperAngle: 30
 --- !u!1 &1022172368
 GameObject:
   m_ObjectHideFlags: 0
@@ -1325,7 +1324,6 @@ GameObject:
   - component: {fileID: 1022172373}
   - component: {fileID: 1022172372}
   - component: {fileID: 1022172371}
-  - component: {fileID: 1022172374}
   m_Layer: 0
   m_Name: Square (3)
   m_TagString: Untagged
@@ -1417,7 +1415,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.5}
-  m_ConnectedAnchor: {x: 0, y: -0.48718238}
+  m_ConnectedAnchor: {x: 0, y: -0.48718232}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1498,31 +1496,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!233 &1022172374
-HingeJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1022172368}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 1841980513}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_BreakAction: 3
-  m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0, y: -0.5}
-  m_ConnectedAnchor: {x: 0, y: -1.4871823}
-  m_UseMotor: 0
-  m_Motor:
-    m_MotorSpeed: 0
-    m_MaximumMotorForce: 10000
-  m_UseLimits: 1
-  m_AngleLimits:
-    m_LowerAngle: -30
-    m_UpperAngle: 30
 --- !u!1 &1065946969
 GameObject:
   m_ObjectHideFlags: 0
@@ -1924,7 +1897,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 1266520858}
   cam: {fileID: 503603562}
-  button: 306
 --- !u!1 &1280062027
 GameObject:
   m_ObjectHideFlags: 0
@@ -2125,7 +2097,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 1280062030}
   cam: {fileID: 503603562}
-  button: 308
 --- !u!1 &1359948702
 GameObject:
   m_ObjectHideFlags: 0
@@ -2432,7 +2403,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.5}
-  m_ConnectedAnchor: {x: 2.52, y: 0.14014584}
+  m_ConnectedAnchor: {x: -3.445117, y: 1.1792917}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -2831,7 +2802,6 @@ GameObject:
   - component: {fileID: 1841980513}
   - component: {fileID: 1841980515}
   - component: {fileID: 1841980514}
-  - component: {fileID: 1841980516}
   m_Layer: 0
   m_Name: Square (2)
   m_TagString: Untagged
@@ -3004,31 +2974,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!233 &1841980516
-HingeJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1841980510}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 900031292}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_BreakAction: 3
-  m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0, y: -0.5}
-  m_ConnectedAnchor: {x: 0, y: -1.4781876}
-  m_UseMotor: 0
-  m_Motor:
-    m_MotorSpeed: 0
-    m_MaximumMotorForce: 10000
-  m_UseLimits: 1
-  m_AngleLimits:
-    m_LowerAngle: -30
-    m_UpperAngle: 30
 --- !u!1 &2010458212
 GameObject:
   m_ObjectHideFlags: 0
@@ -3229,7 +3174,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 2010458215}
   cam: {fileID: 503603562}
-  button: 306
 --- !u!1 &2034058729
 GameObject:
   m_ObjectHideFlags: 0
